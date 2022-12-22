@@ -1,7 +1,7 @@
 
 function App() {
   const name = 'Badsha Hoosain';
-  let bool = true;
+  let bool = false;
   return (
     <div className="container">
       <h1>Hello Coder!</h1>
