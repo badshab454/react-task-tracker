@@ -1,13 +1,12 @@
+import React from 'react';
+import Header from './components/Header.js';
+
 
 function App() {
-  const name = 'Badsha Hoosain';
-  let bool = false;
   return (
     <div className="container">
-      <h1>Hello Coder!</h1>
-      <h2>It's {bool ? 'Yes' : 'No'}</h2>
+      <Header />
     </div>
   );
 }
-
 export default App;
