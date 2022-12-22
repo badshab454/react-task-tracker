@@ -1,8 +1,10 @@
 
 function App() {
+  const name = 'Badsha Hoosain';
   return (
-    <div className="App">
+    <div className="container">
       <h1>Hello Coder!</h1>
+      <h2>Hello {name}</h2>
     </div>
   );
 }
