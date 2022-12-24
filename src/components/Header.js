@@ -4,6 +4,7 @@ const Header = ({title}) => {
   return (
     <header>
         <h1 style={headingStyle}>{title}</h1>
+        <p>Paragraph in React.</p>
     </header>
   )
 }
