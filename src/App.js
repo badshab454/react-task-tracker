@@ -24,8 +24,13 @@ function App() {
         day: 'Feb 5th at 2:30pm',
         reminder: false,
     },
-]
-)
+])
+
+// Delete Task
+const deleteTask = (id) => {
+  console.log('delete', id);
+}
+
   return (
     <div className="container">
       <Header />
