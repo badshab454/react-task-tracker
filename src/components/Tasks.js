@@ -1,7 +1,7 @@
 import Task from './Task'
 
 
-const Tasks = ({tasks}) => {
+const Tasks = ({tasks, onDelete}) => {
     return (
         <>
             {tasks.map((task) => (
